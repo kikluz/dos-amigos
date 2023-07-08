@@ -1,0 +1,16 @@
+current directory: /home/kikluz/development/personal/middleman/dos-amigos/vendor/ruby/3.1.0/gems/haml-6.1.1/ext/haml
+/home/kikluz/.rbenv/versions/3.1.2/bin/ruby -I /home/kikluz/.rbenv/versions/3.1.2/lib/ruby/3.1.0 -r ./siteconf20230701-158890-3pm5uk.rb extconf.rb
+creating Makefile
+
+current directory: /home/kikluz/development/personal/middleman/dos-amigos/vendor/ruby/3.1.0/gems/haml-6.1.1/ext/haml
+make DESTDIR\= clean
+
+current directory: /home/kikluz/development/personal/middleman/dos-amigos/vendor/ruby/3.1.0/gems/haml-6.1.1/ext/haml
+make DESTDIR\=
+compiling haml.c
+compiling hescape.c
+linking shared-object haml/haml.so
+
+current directory: /home/kikluz/development/personal/middleman/dos-amigos/vendor/ruby/3.1.0/gems/haml-6.1.1/ext/haml
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 haml.so ./.gem.20230701-158890-upym/haml

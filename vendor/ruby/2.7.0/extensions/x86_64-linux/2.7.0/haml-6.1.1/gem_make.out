@@ -1,0 +1,19 @@
+current directory: /home/kikluz/development/personal/middleman/dos-amigos/vendor/ruby/2.7.0/gems/haml-6.1.1/ext/haml
+/home/kikluz/.rbenv/versions/2.7.6/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/kikluz/development/personal/middleman/dos-amigos/vendor/ruby/2.7.0/gems/haml-6.1.1/ext/haml
+make DESTDIR\= sitearchdir\=./.gem.20230630-111886-1xn4m0b sitelibdir\=./.gem.20230630-111886-1xn4m0b clean
+
+current directory: /home/kikluz/development/personal/middleman/dos-amigos/vendor/ruby/2.7.0/gems/haml-6.1.1/ext/haml
+make DESTDIR\= sitearchdir\=./.gem.20230630-111886-1xn4m0b sitelibdir\=./.gem.20230630-111886-1xn4m0b
+compiling haml.c
+compiling hescape.c
+linking shared-object haml/haml.so
+
+current directory: /home/kikluz/development/personal/middleman/dos-amigos/vendor/ruby/2.7.0/gems/haml-6.1.1/ext/haml
+make DESTDIR\= sitearchdir\=./.gem.20230630-111886-1xn4m0b sitelibdir\=./.gem.20230630-111886-1xn4m0b install
+/usr/bin/install -c -m 0755 haml.so ./.gem.20230630-111886-1xn4m0b/haml
+
+current directory: /home/kikluz/development/personal/middleman/dos-amigos/vendor/ruby/2.7.0/gems/haml-6.1.1/ext/haml
+make DESTDIR\= sitearchdir\=./.gem.20230630-111886-1xn4m0b sitelibdir\=./.gem.20230630-111886-1xn4m0b clean
