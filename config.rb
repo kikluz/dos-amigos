@@ -48,7 +48,6 @@ import_path File.expand_path('bower_components', app.root)
 # extensions
 # require 'lib/extensions/permalink.rb'
 # activate :permalink
-activate :syntax
 set :markdown_engine, :kramdown
 
 configure :development do
