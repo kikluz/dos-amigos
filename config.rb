@@ -39,10 +39,40 @@ page '/*.txt', layout: false
 #   end
 # end
 
+# Deploy to github pages
+activate :deploy do |deploy|
+  deploy.deploy_method = :git
+  deploy.build_before = true # default: false
+end
+import_path File.expand_path('bower_components', app.root)
+# extensions
+# require 'lib/extensions/permalink.rb'
+# activate :permalink
+activate :syntax
+set :markdown_engine, :kramdown
+
+configure :development do
+	# set :images_dir, 'source/images'
+	# set :js_dir, 'source/javascripts'
+	# set :css_dir, 'assets/stylesheets'
+
+
+	# set :fonts_dir, 'source/fonts'
+	# set :site_url, 'middletown_creamery'
+end
+
 # Build-specific configuration
 # https://middlemanapp.com/advanced/configuration/#environment-specific-settings
 
 configure :build do
-  activate :minify_css
-  activate :minify_javascript
+	set :relative_links, true
+	activate :minify_css
+	activate :minify_javascript
+	activate :asset_hash
+	
+	
+	# Relative assets needed to deploy to Github Pages
+	activate :relative_assets
+	# Name of the project where you working on
+	set :site_url, "dos-amigos"
 end
